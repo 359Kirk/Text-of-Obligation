@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PhotonServerSettings
   m_EditorClassIdentifier: 
   AppSettings:
-    AppIdRealtime: f9704ce2-6650-4471-82ba-4782fb862820
+    AppIdRealtime: 5d4bb59b-87e2-40c9-b44c-11bec03a58c5
     AppIdFusion: 
     AppIdChat: 
     AppIdVoice: 
@@ -28,34 +28,28 @@ MonoBehaviour:
     AuthMode: 0
     EnableLobbyStatistics: 0
     NetworkLogging: 1
-  DevRegion: usw
+  DevRegion: 
   PunLogging: 0
   EnableSupportLogger: 0
   RunInBackground: 1
   StartInOfflineMode: 0
   RpcList:
-  - ClickRpc
-  - DestroyRpc
-  - UpdateLobbyUI
-  - Initialize
-  - SpawnPlayer
-  - ChangeScene
-  - ImInGame
-  - <Update>g__DamageFlash|12_1
-  - <Update>g__Die|12_2
-  - <Update>g__TakeDamage|12_0
-  - SpawnBullet
-  - <Update>g__DamageFlash|13_1
-  - <Update>g__Die|13_2
-  - <Update>g__TakeDamage|13_0
   - AddKill
+  - ChangeScene
+  - ClickRpc
   - DamageFlash
-  - Die
-  - TakeDamage
-  - WinGame
   - DestroyPickup
+  - DestroyRpc
+  - Die
   - GiveAmmo
   - Heal
+  - ImInGame
+  - Initialize
+  - SpawnBullet
+  - SpawnPlayer
+  - TakeDamage
+  - UpdateLobbyUI
+  - WinGame
   DisableAutoOpenWizard: 1
   ShowSettings: 0
-  DevRegionSetOnce: 1
+  DevRegionSetOnce: 0
