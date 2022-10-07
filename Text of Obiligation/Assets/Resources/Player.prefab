@@ -531,8 +531,8 @@ MonoBehaviour:
   damage: 10
   curAmmo: 100
   maxAmmo: 100
-  bulletSpeed: 20
-  shootRate: 1
+  bulletSpeed: 50
+  shootRate: 0.1
   bulletPrefab: {fileID: 374920642138381321, guid: 56bae4a86c05cbb4f828124fc1bb4484, type: 3}
   bulletSpawnPos: {fileID: 3939793555116463323}
 --- !u!1001 &2639087809574797083
