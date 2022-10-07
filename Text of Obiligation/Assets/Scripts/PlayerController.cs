@@ -62,6 +62,8 @@ public class PlayerController : MonoBehaviourPun
             TryJump();
         if (Input.GetMouseButtonDown(0))
             weapon.TryShoot();
+        if (Input.GetMouseButtonDown(1))
+            weapon.aimDownSights();
     }
     
     private void Move()

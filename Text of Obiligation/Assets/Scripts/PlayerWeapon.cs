@@ -41,6 +41,11 @@ public class PlayerWeapon : MonoBehaviour
         
     }
 
+    public void aimDownSights()
+    {
+        Debug.Log("ZOOM");
+    }
+
     [PunRPC]
     void SpawnBullet(Vector3 pos, Vector3 dir)
     {
